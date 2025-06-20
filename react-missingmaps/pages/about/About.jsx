@@ -26,7 +26,7 @@ export default function About() {
         </p>
         <h2>How To Use MapSwipe</h2>
         <p>
-          MapSwipe is very intuitive. Mappers follow these steps: <br />
+          MapSwipe is very intuitive. Mappers follow these steps:</p>
           <ol>
             <li></li>
             <li></li>
@@ -35,8 +35,11 @@ export default function About() {
             <li></li>
 
           </ol>
+          <p>
+
           Since its start in 2015, MapSwipe has scaled to 29,000 users mapping 600,000 km2 (larger than the area of Kenya). MapSwipe is volunteer-driven and community-led. Any organization or mapping community can request to use MapSwipe to help with their activities on the ground. To learn more check out the MapSwipe website. If you’d like to request a project, email MapSwipe!
-        </p>
+          </p>
+        
         <button> Visit MapSwipe Website</button>
       </div>
     </main>

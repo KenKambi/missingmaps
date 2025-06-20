@@ -1,6 +1,13 @@
-import "./footer.css"
+import "./footer.css";
+import { FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
+  const styles = {
+    color: "antiquewhite",
+    width: "30px",
+    height: "25px",
+  };
+
   return (
     <footer>
       <div className="details">
@@ -60,18 +67,55 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <a href="#youtube"> LinkedIn</a>
-        <a href="#youtube"> Youtube</a>
-        <a href="#youtube"> X(Twitter)</a>
-        <a href="#youtube"> Github</a>
-        <a href="#youtube"> Email</a>
-        <a href="#youtube"> Instagram</a>
-        <a href="#youtube"> Facebook </a>
-        <a href="#youtube"> </a>
-        <a href="#youtube"> </a>
+
+        <a
+          href="https://www.instagram.com/gael_essence/"
+          title="Youtube"
+          target="_blank"
+        >
+          <FaYoutube style={styles}/>
+        </a>
+        <a
+          href="https://www.instagram.com/gael_essence/"
+          title="Instagram"
+          target="_blank"
+        >
+          <FaInstagram style={styles}/>
+        </a>
+        <a
+          href="https://www.instagram.com/gael_essence/"
+          title="GitHub"
+          target="_blank"
+        >
+          <FaGithub style={styles}/>
+        </a>
+        <a
+          href="https://www.instagram.com/gael_essence/"
+          title="LinkedIn"
+          target="_blank"
+        >
+          <FaLinkedinIn style={styles}/>
+        </a>
+        <a
+          href="https://www.instagram.com/gael_essence/"
+          title="Facebook"
+          target="_blank"
+        >
+          <FaFacebook style={styles}/>
+        </a>
+        <a
+          href="https://www.instagram.com/gael_essence/"
+          title="Mail"
+          target="_blank"
+        >
+          <FaEnvelope style={styles}/>
+        </a>
       </div>
       <hr />
-      <small> &copy; {new Date().getFullYear()} Missing Maps. All rights reserved.</small>
+      <small>
+        {" "}
+        &copy; {new Date().getFullYear()} Missing Maps. All rights reserved.
+      </small>
     </footer>
   );
 }
