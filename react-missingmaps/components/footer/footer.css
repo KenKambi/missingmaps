@@ -1,0 +1,16 @@
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+small{
+    display: flex;
+    justify-content: center;
+}
